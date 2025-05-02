@@ -21,6 +21,7 @@ const Carousel = ({ images }) => {
   const goToNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
+  
 
   return (
     <div className="carousel-container mx-auto relative" style={{ height: '500px', width: '290px' }}>
