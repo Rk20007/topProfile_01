@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 export const metadata = {
-  title: "SociaTree | About",
+  title: "TopProfile | About",
   description:
     "Share your links, social profiles, contact info and more on one page",
 };
