@@ -31,7 +31,7 @@ export default function Contact() {
 
         <div className="flex flex-wrap justify-center gap-6 text-gray-600">
           <a
-            href="https://twitter.com/jeffjiang9"
+            href="#"
             className="hover:text-blue-400"
             target="_blank"
             rel="noopener noreferrer"
@@ -39,7 +39,7 @@ export default function Contact() {
             <FaTwitter size="2em" />
           </a>
           <a
-            href="https://www.facebook.com/jeff.jiang.9"
+            href="#"
             className="hover:text-blue-600"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +47,7 @@ export default function Contact() {
             <FaFacebookF size="2em" />
           </a>
           <a
-            href="https://github.com/jeffjiang13"
+            href="#"
             className="hover:text-gray-800"
             target="_blank"
             rel="noopener noreferrer"
