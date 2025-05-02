@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 export const metadata = {
-  title: "TopProfile | About",
+  title: "TopMewatProfile | About",
   description:
     "Share your links, social profiles, contact info and more on one page",
 };
@@ -11,14 +11,14 @@ export default function About() {
     <div className="flex flex-col items-center justify-center min-h-screen py-2 mt-10">
       <main className="flex flex-col items-center w-full flex-1 px-4 md:px-20 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
-          About <span className="text-blue-500">TopProfile</span>
+          About <span className="text-blue-500">TopMewatProfile</span>
         </h1>
 
         <p className="mt-4 text-lg md:text-xl text-gray-600">
-          TopProfile is a dynamic and user-friendly platform designed to streamline
+          TopMewatProfile is a dynamic and user-friendly platform designed to streamline
           your online presence. Inspired by actual{" "}
-          <a className="text-blue-500" href="https://topprofile.com/">
-            TopProfile
+          <a className="text-blue-500" href="https://TopMewatProfile.com/">
+            TopMewatProfile
           </a>
           , it allows users to create a personalized and easily shareable page
           that houses all their important links in one place.

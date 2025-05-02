@@ -45,7 +45,7 @@ export default function HeroForm({user}) {
       <button
         type="submit"
         className="bg-blue-500 hover:bg-blue-300 rounded-md text-white py-4 px-6 whitespace-nowrap">
-        Claim your Sociotree
+        Claim your TopMewatProfile
       </button>
     </form>
   );

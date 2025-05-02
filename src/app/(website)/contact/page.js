@@ -8,9 +8,10 @@ import {
   FaLinkedinIn,
   FaBriefcase,
 } from "react-icons/fa";
+import { MdPhone, MdEmail } from "react-icons/md"; // Add phone and email icons
 
 export const metadata = {
-  title: "TopProfile | Contact",
+  title: "TopMewatProfile | Contact",
   description:
     "Share your links, social profiles, contact info and more on one page",
 };
@@ -29,7 +30,7 @@ export default function Contact() {
           Get in Touch
         </h1>
 
-        <div className="flex flex-wrap justify-center gap-6 text-gray-600">
+        <div className="flex flex-wrap justify-center gap-6 text-gray-600 mb-6">
           <a
             href="#"
             className="hover:text-blue-400"
@@ -69,6 +70,22 @@ export default function Contact() {
             rel="noopener noreferrer"
           >
             <FaBriefcase size="2em" />
+          </a>
+        </div>
+
+        {/* Phone and Email Links */}
+        <div className="flex flex-col items-center gap-4 text-gray-700 text-lg">
+          <a
+            href="tel:7740847114"
+            className="flex items-center gap-2 hover:text-green-600"
+          >
+            <MdPhone size="1.5em" /> Call: 7740847114
+          </a>
+          <a
+            href="mailto:topmewatprofile@gmail.com"
+            className="flex items-center gap-2 hover:text-blue-600"
+          >
+            <MdEmail size="1.5em" /> Email: topmewatprofile@gmail.com
           </a>
         </div>
       </main>

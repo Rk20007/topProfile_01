@@ -13,16 +13,17 @@ export const authOptions = {
     }),
   ],
   callbacks: {
-    async signIn({ user }) {
-      const allowedEmails = ["robinkhan1122111@gmail.com", "anotheremail@example.com"]; // <-- your allowed emails
-
+    async signIn({ user, account, profile, email, credentials }) {
+      const allowedEmails = ["robinkhan1122111@gmail.com", "anotheremail@example.com"];
+  
       if (allowedEmails.includes(user.email)) {
-        return true; // Allow sign in
+        return true; // Proceed to callbackUrl (like /account)
       } else {
-        return false; // Deny sign in
+        return '/payment'; // Redirect disallowed users to payment page
       }
     },
-  },
+  }
+  
 };
 
 const handler = NextAuth(authOptions);
